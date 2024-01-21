@@ -1,0 +1,24 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../VHDL/CPU/constants_pkg.vhd" \
+"../../../../../VHDL/CPU/CPU_Bootloader_Collin.vhd" \
+"../../../../../VHDL/CPU/ual.vhd" \
+"../../../../../VHDL/CPU/UART_fifoed_send_V1.vhd" \
+"../../../../../VHDL/CPU/boot_loader.vhd" \
+"../../../../../VHDL/CPU/byte_2_word.vhd" \
+"../../../../../VHDL/CPU/control.vhd" \
+"../../../../../VHDL/CPU/mux.vhd" \
+"../../../../../VHDL/CPU/pc.vhd" \
+"../../../../../VHDL/SIMU/read_int_file.vhd" \
+"../../../../../VHDL/CPU/registre.vhd" \
+"../../../../../VHDL/CPU/registre_carry.vhd" \
+"../../../../../VHDL/CPU/uart_recv.vhd" \
+"../../../../../VHDL/CPU/uc.vhd" \
+"../../../../../VHDL/CPU/um.vhd" \
+"../../../../../VHDL/CPU/ut.vhd" \
+"../../../../../VHDL/CPU/word_2_byte.vhd" \
+"../../../../../VHDL/SIMU/write_int_file.vhd" \
+"../../../../../VHDL/SIMU/tb_CPU_Bootloader.vhd" \
+
+# Do not sort compile order
+nosort

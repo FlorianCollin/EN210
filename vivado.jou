@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:04:56 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Wed Jan 10 11:51:49 2024
+# Process ID: 1555701
+# Current directory: /home/cleroux/ENSEIGNEMENTS/EN210/mini-cpu
+# Command line: vivado
+# Log file: /home/cleroux/ENSEIGNEMENTS/EN210/mini-cpu/vivado.log
+# Journal file: /home/cleroux/ENSEIGNEMENTS/EN210/mini-cpu/vivado.jou
+# Running On: d7010-cl, OS: Linux, CPU Frequency: 4991.043 MHz, CPU Physical cores: 16, Host memory: 33318 MB
+#-----------------------------------------------------------
+start_gui
+create_project amini-cpu /home/cleroux/ENSEIGNEMENTS/EN210/mini-cpu/VIVADO -part xc7a100tcsg324-1
+add_files -norecurse {/home/cleroux/ENSEIGNEMENTS/EN210/mini-cpu/VHDL/SIMU/write_int_file.vhd /home/cleroux/ENSEIGNEMENTS/EN210/mini-cpu/VHDL/CPU/Counter_Prog.vhd /home/cleroux/ENSEIGNEMENTS/EN210/mini-cpu/VHDL/CPU/Processing_unit.vhd /home/cleroux/ENSEIGNEMENTS/EN210/mini-cpu/VHDL/CPU/boot_loader.vhd /home/cleroux/ENSEIGNEMENTS/EN210/mini-cpu/VHDL/SIMU/read_int_file.vhd /home/cleroux/ENSEIGNEMENTS/EN210/mini-cpu/VHDL/CPU/uart_recv.vhd /home/cleroux/ENSEIGNEMENTS/EN210/mini-cpu/VHDL/CPU/word_2_byte.vhd /home/cleroux/ENSEIGNEMENTS/EN210/mini-cpu/VHDL/SIMU/txt_util.vhd /home/cleroux/ENSEIGNEMENTS/EN210/mini-cpu/VHDL/CPU/FSM_processor.vhd /home/cleroux/ENSEIGNEMENTS/EN210/mini-cpu/VHDL/SIMU/tb_CPU_Bootloader.vhd /home/cleroux/ENSEIGNEMENTS/EN210/mini-cpu/VHDL/CPU/Registre_1bit.vhd /home/cleroux/ENSEIGNEMENTS/EN210/mini-cpu/VHDL/CPU/UART_fifoed_send_V1.vhd /home/cleroux/ENSEIGNEMENTS/EN210/mini-cpu/VHDL/CPU/UAL.vhd /home/cleroux/ENSEIGNEMENTS/EN210/mini-cpu/VHDL/CPU/Control_Unit.vhd /home/cleroux/ENSEIGNEMENTS/EN210/mini-cpu/VHDL/CPU/RAM_SP_64_8.vhd /home/cleroux/ENSEIGNEMENTS/EN210/mini-cpu/VHDL/SIMU/read_hex_file.vhd /home/cleroux/ENSEIGNEMENTS/EN210/mini-cpu/VHDL/CPU/Registre_16bits.vhd /home/cleroux/ENSEIGNEMENTS/EN210/mini-cpu/VHDL/CPU/byte_2_word.vhd /home/cleroux/ENSEIGNEMENTS/EN210/mini-cpu/VHDL/CPU/mux2_1.vhd /home/cleroux/ENSEIGNEMENTS/EN210/mini-cpu/VHDL/CPU/CPU_Bootloader.vhd}
+add_files -fileset constrs_1 -norecurse /home/cleroux/ENSEIGNEMENTS/EN210/mini-cpu/XDC/Nexys4_Master.xdc
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top CPU_Bootloader [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1

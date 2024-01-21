@@ -1,0 +1,239 @@
+/*
+
+AMD Vivado v2023.1 (64-bit) [Major: 2023, Minor: 1]
+SW Build: 3865809 on Sun May  7 15:04:56 MDT 2023
+IP Build: 3864474 on Sun May  7 20:36:21 MDT 2023
+IP Build: 3864474 on Sun May  7 20:36:21 MDT 2023
+
+Process ID (PID): 1555701
+License: Customer
+Mode: GUI Mode
+
+Current time: 	Wed Jan 10 11:51:57 CET 2024
+Time zone: 	Central European Standard Time (Europe/Paris)
+
+OS: Ubuntu
+OS Version: 6.2.0-39-generic
+OS Architecture: amd64
+Available processors (cores): 24
+
+Display: 10.0
+Screen size: 1920x1027
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+Scale size: 12
+OS font scaling: 100%
+
+Java version: 	17.0.3 64-bit
+JavaFX version: 17.0.1
+Java home: 	/opt/xilinx/Vivado/2023.1/tps/lnx64/jre17.0.3_7
+Java executable: 	/opt/xilinx/Vivado/2023.1/tps/lnx64/jre17.0.3_7/bin/java
+Java arguments: 	[-Dsun.java2d.pmoffscreen=false, -Dhttps.protocols=TLSv1,TLSv1.1,TLSv1.2, -Dsun.java2d.xrender=false, -Djdk.gtk.version=2, -Dsun.java2d.uiScale.enabled=false, -Dswing.aatext=true, -XX:-UsePerfData, -Djdk.map.althashing.threshold=512, -XX:StringTableSize=4072, -XX:+UseStringDeduplication, -XX:MaxGCPauseMillis=200, -XX:+ParallelRefProcEnabled, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.base/java.nio=ALL-UNNAMED, --add-opens=java.desktop/sun.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-opens=java.desktop/javax.swing=ALL-UNNAMED, --add-opens=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-opens=java.desktop/java.awt.event=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.base/java.nio=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.tree=ALL-UNNAMED, --add-exports=java.desktop/javax.swing.plaf.basic=ALL-UNNAMED, --add-exports=java.desktop/sun.swing=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.table=ALL-UNNAMED, --add-exports=java.desktop/sun.swing.plaf.synth=ALL-UNNAMED, --add-exports=java.desktop/sun.awt.shell=ALL-UNNAMED, --add-exports=java.base/sun.security.action=ALL-UNNAMED, --add-exports=java.desktop/sun.font=ALL-UNNAMED, --add-opens=java.desktop/sun.awt.X11=ALL-UNNAMED, -XX:NewSize=80m, -XX:MaxNewSize=80m, -Xms512m, -Xmx4072m, -Xss10m, -Xrs]
+Java initial memory (-Xms): 	512 MB
+Java maximum memory (-Xmx):	 3 GB
+
+User name: 	cleroux
+User home directory: /home/cleroux
+User working directory: /home/cleroux/ENSEIGNEMENTS/EN210/mini-cpu
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /opt/xilinx/Vivado
+HDI_APPROOT: /opt/xilinx/Vivado/2023.1
+RDI_DATADIR: /opt/xilinx/SharedData/2023.1/data:/opt/xilinx/Vivado/2023.1/data
+RDI_BINDIR: /opt/xilinx/Vivado/2023.1/bin
+
+Vivado preferences file: /home/cleroux/.Xilinx/Vivado/2023.1/vivado.xml
+Vivado preferences directory: /home/cleroux/.Xilinx/Vivado/2023.1/
+Vivado layouts directory: /home/cleroux/.Xilinx/Vivado/2023.1/data/layouts
+PlanAhead jar file: 	/opt/xilinx/Vivado/2023.1/lib/classes/planAhead.jar
+Vivado log file: 	/home/cleroux/ENSEIGNEMENTS/EN210/mini-cpu/vivado.log
+Vivado journal file: 	/home/cleroux/ENSEIGNEMENTS/EN210/mini-cpu/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-1555701-d7010-cl
+Non-Default Parameters:	[]
+
+Xilinx & AMD Environment Variables
+--------------------------------------------------------------------------------------------
+RDI_APPROOT: /opt/xilinx/Vivado/2023.1
+RDI_BASEROOT: /opt/xilinx/Vivado
+RDI_BINROOT: /opt/xilinx/Vivado/2023.1/bin
+RDI_BUILD: yes
+RDI_DATADIR: /opt/xilinx/SharedData/2023.1/data:/opt/xilinx/Vivado/2023.1/data
+RDI_INSTALLROOT: /opt/xilinx
+RDI_INSTALLVER: 2023.1
+RDI_JAVA_PLATFORM: 
+RDI_JAVA_VERSION: 17.0.3_7
+RDI_LIBDIR: /opt/xilinx/Vivado/2023.1/lib/lnx64.o/Ubuntu:/opt/xilinx/Vivado/2023.1/lib/lnx64.o
+RDI_OPT_EXT: .o
+RDI_PATCHROOT: 
+RDI_PLATFORM: lnx64
+RDI_PREPEND_PATH: /opt/xilinx/Vivado/2023.1/ids_lite/ISE/bin/lin64
+RDI_PROG: /opt/xilinx/Vivado/2023.1/bin/unwrapped/lnx64.o/vivado
+RDI_SESSION_INFO: /home/cleroux/ENSEIGNEMENTS/EN210/mini-cpu:d7010-cl_1704883908_1555661
+RDI_SHARED_DATA: /opt/xilinx/SharedData/2023.1/data
+RDI_TPS_ROOT: /opt/xilinx/Vivado/2023.1/tps/lnx64
+RDI_USE_JDK17: True
+SHELL: /bin/bash
+XILINX: /opt/xilinx/Vivado/2023.1/ids_lite/ISE
+XILINX_DSP: /opt/xilinx/Vivado/2023.1/ids_lite/ISE
+XILINX_HLS: /opt/xilinx/Vitis_HLS/2023.1
+XILINX_PLANAHEAD: /opt/xilinx/Vivado/2023.1
+XILINX_VITIS: 
+XILINX_VIVADO: /opt/xilinx/Vivado/2023.1
+XILINX_VIVADO_HLS: /opt/xilinx/Vivado/2023.1
+
+
+GUI allocated memory:	512 MB
+GUI max memory:		4,072 MB
+Engine allocated memory: 2,320 MB
+
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+selectList(PAResourceQtoS.SyntheticaGettingStartedView_RECENT_PROJECTS, "/home/cleroux/ENSEIGNEMENTS/EN210/mini-cpu/VIVADO/mini_cpu.xpr", 0); // b.c
+// HOptionPane Error: 'Can't open project 'mini_cpu'. Please verify that the project file still exists. (Open Project)'
+// HMemoryUtils.trashcanNow. Engine heap size: 2,376 MB. GUI used memory: 69 MB. Current time: 1/10/24, 11:51:58 AM CET
+selectButton("OptionPane.button", "OK"); // JButton
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // ag
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // al
+selectMenuItem(PAResourceCommand.PACommandNames_NEW_PROJECT, "New..."); // ao
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // ag
+// Run Command: PAResourceCommand.PACommandNames_NEW_PROJECT
+selectButton("NEXT", "Next >"); // JButton
+selectButton(PAResourceOtoP.ProjectNameChooser_CHOOSE_PROJECT_LOCATION, (String) null); // r
+setFolderChooser("/home/cleroux/ENSEIGNEMENTS/EN210/mini-cpu/VIVADO");
+setText(PAResourceOtoP.ProjectNameChooser_PROJECT_NAME, "amini-cpu"); // Q
+selectButton("NEXT", "Next >"); // JButton
+selectButton("NEXT", "Next >"); // JButton
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a
+String[] filenames31467 = {"/home/cleroux/ENSEIGNEMENTS/EN210/mini-cpu/VHDL/CPU/CPU_Bootloader.vhd", "/home/cleroux/ENSEIGNEMENTS/EN210/mini-cpu/VHDL/CPU/Control_Unit.vhd", "/home/cleroux/ENSEIGNEMENTS/EN210/mini-cpu/VHDL/CPU/Counter_Prog.vhd", "/home/cleroux/ENSEIGNEMENTS/EN210/mini-cpu/VHDL/CPU/FSM_processor.vhd", "/home/cleroux/ENSEIGNEMENTS/EN210/mini-cpu/VHDL/CPU/Processing_unit.vhd", "/home/cleroux/ENSEIGNEMENTS/EN210/mini-cpu/VHDL/CPU/RAM_SP_64_8.vhd", "/home/cleroux/ENSEIGNEMENTS/EN210/mini-cpu/VHDL/CPU/Registre_16bits.vhd", "/home/cleroux/ENSEIGNEMENTS/EN210/mini-cpu/VHDL/CPU/Registre_1bit.vhd", "/home/cleroux/ENSEIGNEMENTS/EN210/mini-cpu/VHDL/CPU/UAL.vhd", "/home/cleroux/ENSEIGNEMENTS/EN210/mini-cpu/VHDL/CPU/UART_fifoed_send_V1.vhd", "/home/cleroux/ENSEIGNEMENTS/EN210/mini-cpu/VHDL/CPU/boot_loader.vhd", "/home/cleroux/ENSEIGNEMENTS/EN210/mini-cpu/VHDL/CPU/byte_2_word.vhd", "/home/cleroux/ENSEIGNEMENTS/EN210/mini-cpu/VHDL/CPU/mux2_1.vhd", "/home/cleroux/ENSEIGNEMENTS/EN210/mini-cpu/VHDL/CPU/uart_recv.vhd", "/home/cleroux/ENSEIGNEMENTS/EN210/mini-cpu/VHDL/CPU/word_2_byte.vhd"};
+setFileChooser(filenames31467);
+selectButton("NEXT", "Next >"); // JButton
+selectButton("BACK", "< Back"); // JButton
+selectButton(PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, "Add Files"); // a
+String[] filenames16706 = {"/home/cleroux/ENSEIGNEMENTS/EN210/mini-cpu/VHDL/SIMU/read_hex_file.vhd", "/home/cleroux/ENSEIGNEMENTS/EN210/mini-cpu/VHDL/SIMU/read_int_file.vhd", "/home/cleroux/ENSEIGNEMENTS/EN210/mini-cpu/VHDL/SIMU/tb_CPU_Bootloader.vhd", "/home/cleroux/ENSEIGNEMENTS/EN210/mini-cpu/VHDL/SIMU/txt_util.vhd", "/home/cleroux/ENSEIGNEMENTS/EN210/mini-cpu/VHDL/SIMU/write_int_file.vhd"};
+setFileChooser(filenames16706);
+selectButton("NEXT", "Next >"); // JButton
+// [GUI Memory]: 106 MB (+108908kb) [00:00:57]
+// [Engine Memory]: 2,381 MB (+2345683kb) [00:00:57]
+// [GUI Memory]: 112 MB (+696kb) [00:00:57]
+// [GUI Memory]: 146 MB (+29741kb) [00:00:57]
+selectButton("NEXT", "Next >"); // JButton
+selectButton("BACK", "< Back"); // JButton
+selectButton(PAResourceAtoD.ConstraintsChooserPanel_ADD_FILES, "Add Files"); // a
+setFileChooser("/home/cleroux/ENSEIGNEMENTS/EN210/mini-cpu/XDC/Nexys4_Master.xdc");
+selectButton("NEXT", "Next >"); // JButton
+selectComboBox(PAResourceEtoH.FPGAChooser_FAMILY, "Artix-7", 1); // a.a
+selectComboBox(PAResourceEtoH.FPGAChooser_CATEGORY, "General Purpose", 2); // a.a
+selectComboBox(PAResourceEtoH.FPGAChooser_PACKAGE, "csg324", 3); // a.a
+selectComboBox(PAResourceEtoH.FPGAChooser_SPEED, "-1", 1); // a.a
+selectTable(PAResourceEtoH.FPGAChooser_FPGA_TABLE, "xc7a100tcsg324-1 ; 324 ; 210 ; 63400 ; 126800 ; 135 ; 0 ; 240 ;  ; 32 ;  ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 1 ; 6 ;  ;  ;  ;  ; 0 ;  ;  ;  ;  ;  ;  ; 0.95 ; 0.95 ; 1.05", 4, "xc7a100tcsg324-1", 0); // c
+selectButton("NEXT", "Next >"); // JButton
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 2,515 MB (+15035kb) [00:01:18]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: create_project amini-cpu /home/cleroux/ENSEIGNEMENTS/EN210/mini-cpu/VIVADO -part xc7a100tcsg324-1 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/xilinx/Vivado/2023.1/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -fileset constrs_1 -norecurse /home/cleroux/ENSEIGNEMENTS/EN210/mini-cpu/XDC/Nexys4_Master.xdc 
+selectButton("FINISH", "Finish"); // JButton
+// 'g' command handler elapsed time: 66 seconds
+dismissDialog("Create Project"); // bq
+dismissDialog("New Project"); // f
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 2,583 MB. GUI used memory: 76 MB. Current time: 1/10/24, 11:53:13 AM CET
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_CPU_Bootloader(Behavioral) (tb_CPU_Bootloader.vhd)]", 1); // E
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_CPU_Bootloader(Behavioral) (tb_CPU_Bootloader.vhd), inst_CPU : CPU_Bootloader(Behavioral) (CPU_Bootloader.vhd)]", 5); // E
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_CPU_Bootloader(Behavioral) (tb_CPU_Bootloader.vhd), inst_CPU : CPU_Bootloader(Behavioral) (CPU_Bootloader.vhd), UC : Control_Unit(Behavioral) (Control_Unit.vhd)]", 6); // E
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_CPU_Bootloader(Behavioral) (tb_CPU_Bootloader.vhd), inst_CPU : CPU_Bootloader(Behavioral) (CPU_Bootloader.vhd), UC : Control_Unit(Behavioral) (Control_Unit.vhd)]", 6); // E
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_CPU_Bootloader(Behavioral) (tb_CPU_Bootloader.vhd), inst_CPU : CPU_Bootloader(Behavioral) (CPU_Bootloader.vhd), UT : Processing_unit(Behavioral) (Processing_unit.vhd)]", 7); // E
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_CPU_Bootloader(Behavioral) (tb_CPU_Bootloader.vhd), inst_CPU : CPU_Bootloader(Behavioral) (CPU_Bootloader.vhd), UT : Processing_unit(Behavioral) (Processing_unit.vhd)]", 7); // E
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_CPU_Bootloader(Behavioral) (tb_CPU_Bootloader.vhd), inst_CPU : CPU_Bootloader(Behavioral) (CPU_Bootloader.vhd), BL : boot_loader(Behavioral) (boot_loader.vhd)]", 8); // E
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_CPU_Bootloader(Behavioral) (tb_CPU_Bootloader.vhd), inst_CPU : CPU_Bootloader(Behavioral) (CPU_Bootloader.vhd), BL : boot_loader(Behavioral) (boot_loader.vhd)]", 8); // E
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_CPU_Bootloader(Behavioral) (tb_CPU_Bootloader.vhd), inst_CPU : CPU_Bootloader(Behavioral) (CPU_Bootloader.vhd)]", 5); // E
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_CPU_Bootloader(Behavioral) (tb_CPU_Bootloader.vhd)]", 1); // E
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_CPU_Bootloader(Behavioral) (tb_CPU_Bootloader.vhd)]", 1); // E
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_CPU_Bootloader(Behavioral) (tb_CPU_Bootloader.vhd), inst_CPU : CPU_Bootloader(Behavioral) (CPU_Bootloader.vhd)]", 5, true); // E - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_CPU_Bootloader(Behavioral) (tb_CPU_Bootloader.vhd), inst_CPU : CPU_Bootloader(Behavioral) (CPU_Bootloader.vhd)]", 5, true, false, false, false, true, false); // E - Popup Trigger - Node
+selectMenu(PAResourceCommand.PACommandNames_OPEN_FILE_WITH, "Open With"); // al
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // al
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // al
+selectMenuItem(PAResourceCommand.PACommandNames_SET_AS_TOP, "Set as Top"); // ao
+// Run Command: PAResourceCommand.PACommandNames_SET_AS_TOP
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: set_property top CPU_Bootloader [current_fileset] 
+// TclEventType: DG_GRAPH_STALE
+// Elapsed Time for: 'L.f': 42s
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 44s
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed Time for: 'L.f': 46s
+// [Engine Memory]: 2,659 MB (+19634kb) [00:02:05]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_CPU_Bootloader(Behavioral) (tb_CPU_Bootloader.vhd), inst_uart_send : UART_fifoed_send(Behavioral) (UART_fifoed_send_V1.vhd)]", 4, false); // E
+// Elapsed Time for: 'L.f': 48s
+// HMemoryUtils.trashcanNow. Engine heap size: 2,660 MB. GUI used memory: 77 MB. Current time: 1/10/24, 11:53:58 AM CET
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_CPU_Bootloader(Behavioral) (tb_CPU_Bootloader.vhd), inst_write_file : write_int_file(bhv) (write_int_file.vhd)]", 8, false); // E
+// Elapsed time: 195 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_CPU_Bootloader(Behavioral) (tb_CPU_Bootloader.vhd), inst_write_file : write_int_file(bhv) (write_int_file.vhd)]", 8, false); // E
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_CPU_Bootloader(Behavioral) (tb_CPU_Bootloader.vhd), inst_CPU : CPU_Bootloader(Behavioral) (CPU_Bootloader.vhd)]", 5); // E
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_CPU_Bootloader(Behavioral) (tb_CPU_Bootloader.vhd), inst_CPU : CPU_Bootloader(Behavioral) (CPU_Bootloader.vhd), UC : Control_Unit(Behavioral) (Control_Unit.vhd)]", 6); // E
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_CPU_Bootloader(Behavioral) (tb_CPU_Bootloader.vhd), inst_CPU : CPU_Bootloader(Behavioral) (CPU_Bootloader.vhd), UC : Control_Unit(Behavioral) (Control_Unit.vhd), adr_mux : mux2_1(Behavioral) (mux2_1.vhd)]", 10, false); // E
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_CPU_Bootloader(Behavioral) (tb_CPU_Bootloader.vhd), inst_CPU : CPU_Bootloader(Behavioral) (CPU_Bootloader.vhd), UC : Control_Unit(Behavioral) (Control_Unit.vhd)]", 6); // E
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_CPU_Bootloader(Behavioral) (tb_CPU_Bootloader.vhd), inst_CPU : CPU_Bootloader(Behavioral) (CPU_Bootloader.vhd), UT : Processing_unit(Behavioral) (Processing_unit.vhd)]", 7); // E
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_CPU_Bootloader(Behavioral) (tb_CPU_Bootloader.vhd), inst_CPU : CPU_Bootloader(Behavioral) (CPU_Bootloader.vhd), UT : Processing_unit(Behavioral) (Processing_unit.vhd)]", 7); // E
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_CPU_Bootloader(Behavioral) (tb_CPU_Bootloader.vhd), inst_CPU : CPU_Bootloader(Behavioral) (CPU_Bootloader.vhd), BL : boot_loader(Behavioral) (boot_loader.vhd)]", 8); // E
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_CPU_Bootloader(Behavioral) (tb_CPU_Bootloader.vhd), inst_CPU : CPU_Bootloader(Behavioral) (CPU_Bootloader.vhd), BL : boot_loader(Behavioral) (boot_loader.vhd)]", 8); // E
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_CPU_Bootloader(Behavioral) (tb_CPU_Bootloader.vhd), inst_CPU : CPU_Bootloader(Behavioral) (CPU_Bootloader.vhd)]", 5); // E
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, tb_CPU_Bootloader(Behavioral) (tb_CPU_Bootloader.vhd)]", 1); // E
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'L.f': 06m:20s
+// Elapsed Time for: 'L.f': 06m:22s
+// HMemoryUtils.trashcanNow. Engine heap size: 2,669 MB. GUI used memory: 77 MB. Current time: 1/10/24, 12:23:58 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,669 MB. GUI used memory: 77 MB. Current time: 1/10/24, 12:53:58 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,669 MB. GUI used memory: 58 MB. Current time: 1/10/24, 1:23:58 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,669 MB. GUI used memory: 58 MB. Current time: 1/10/24, 1:53:58 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,669 MB. GUI used memory: 58 MB. Current time: 1/10/24, 2:23:58 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,669 MB. GUI used memory: 58 MB. Current time: 1/10/24, 2:53:58 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,669 MB. GUI used memory: 58 MB. Current time: 1/10/24, 3:23:58 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,669 MB. GUI used memory: 58 MB. Current time: 1/10/24, 3:53:58 PM CET
+// HMemoryUtils.trashcanNow. Engine heap size: 2,670 MB. GUI used memory: 58 MB. Current time: 1/10/24, 4:23:58 PM CET
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 165 MB (+11774kb) [04:52:46]
